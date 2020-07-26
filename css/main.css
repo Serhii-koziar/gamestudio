@@ -1411,6 +1411,17 @@ h1,h2,h3,h4,h5,h6{
 
 }
 .popup__btn{
+	    color: #fff;
+    font-family: GothamMedium;
+    font-size: 12px;
+    text-transform: uppercase;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 30px;
+	display: block;
 	max-width: 150px;
 		width: 100%;
 		background-color: #eb5635;

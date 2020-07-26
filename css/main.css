@@ -791,9 +791,11 @@ h1,h2,h3,h4,h5,h6{
  
 }
 .slider_item img{
+	transition:all .3s ease;
 	border: 5px solid transparent;
 }
 .slider_item img:hover {
+	transition:all .3s ease;
 	position: relative;
 	border: 5px solid #eb5635;
 	z-index: 500;

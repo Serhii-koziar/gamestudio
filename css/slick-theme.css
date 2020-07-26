@@ -79,6 +79,7 @@
 
 .slick-prev
 {
+    transition: all .3s ease;
     position: absolute;
     z-index: 200;
     left:-80px;
@@ -105,6 +106,7 @@
 
 .slick-next
 {
+    transition: all .3s ease;
     position: absolute;
     right: -80px;
 }

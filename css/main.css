@@ -764,7 +764,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .slider{
 	position: relative;
-	max-width: 950px;
+	max-width: 1000px;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -790,8 +790,13 @@ h1,h2,h3,h4,h5,h6{
 .slick-initialized .slick-slide {
  
 }
-.slider_item .slick-slide .slick-current{
-
+.slider_item img{
+	border: 5px solid transparent;
+}
+.slider_item img:hover {
+	position: relative;
+	border: 5px solid #eb5635;
+	z-index: 500;
 }
 .slider_item .slick-slide .slick-current .slick-active{
 
@@ -1171,6 +1176,7 @@ h1,h2,h3,h4,h5,h6{
 .popup input:-moz-placeholder           {     
 	color: #b1b1b1;
     font-family: 'Gotham';
+
     font-size: 13px;
     font-weight: 300;
     line-height: 22.52px;
@@ -1185,6 +1191,11 @@ h1,h2,h3,h4,h5,h6{
     line-height: 22.52px;
     letter-spacing: 0.28px;
     margin-bottom: 15px;
+     }
+     .slick-next:hover,
+     .slick-prev:hover{
+     	background-color: #eb5635;
+     	transition: all .3s ease;
      }
 @media screen and (max-width:1270px){
 	.develop_info__wrap{

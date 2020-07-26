@@ -6,9 +6,16 @@ $(document).ready(function(){
 		arrows:true,
 		responsive: [
 		{
-			breakpoint: 1200,
+			breakpoint: 1300,
 			settings: {
 				slidesToShow: 10
+
+			}
+		},
+				{
+			breakpoint: 1250,
+			settings: {
+				slidesToShow: 9
 
 			}
 		},

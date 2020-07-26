@@ -90,9 +90,10 @@
 }
 .slick-prev:before
 {
+    position: absolute;
   content: "\ea40";
-  margin-left: 23px;
-  
+  left: 20px;
+  top: 20px;
   font-size: 21px;
   font-weight: 400;
   letter-spacing: -0.63px;
@@ -114,9 +115,12 @@
 }
 .slick-next:before
 {
+    margin-right: 0px;
+    position: absolute;
+    top: 20px;
     content: "\ea3c";
-    margin-left: 22px;
-   
+    
+   right:20px;
     font-size: 21px;
     font-weight: 400;
     /* Text style for "" */

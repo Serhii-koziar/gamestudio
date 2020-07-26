@@ -827,7 +827,7 @@ h1,h2,h3,h4,h5,h6{
 	width: 100%;
 	color: #b1b1b1;
 	font-family: 'Gotham';
-	font-size: 15px;
+	font-size: 14.5px;
 	font-weight: bold;
 	line-height: 22.52px;
 	/* Text style for "New York," */
@@ -941,10 +941,15 @@ h1,h2,h3,h4,h5,h6{
 	padding-bottom: 70px;
 	padding-top: 60px;
 }
+.content_item__img_wrap{
+	
+	height: 88px;
+}
 .content_item img{
 	/* Style for "Layer 32" */
 	width: 88px;
-	height: 88px;
+	height: 100%;
+	object-fit: cover;
 }
 .content__text-bold{
 	/* Style for "Big day fo" */
